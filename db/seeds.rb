@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+job_posters = JobPoster.create{[{ name: 'Susan Jones', location: "Austin, TX"}, {name: "Bob", location: "New York, NY"}, {name: 'Jake', location: 'Cedar Park, TX'}, {name: 'Kaerka', location: 'Washington, DC'}, {name: 'Kasha', location: "New York, NY"}]}
